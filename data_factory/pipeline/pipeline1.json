@@ -25,7 +25,10 @@
 						],
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
+							"recursive": false,
+							"modifiedDatetimeStart": "2021-05-01T00:00:00.000Z",
+							"wildcardFolderPath": "*",
+							"wildcardFileName": "*.json",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {

@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_gh9",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FPLstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "2021-fpl-data"
+			}
+		}
+	}
+}

@@ -19,7 +19,7 @@
 						"type": "JsonSource",
 						"additionalColumns": [
 							{
-								"name": "file",
+								"name": "file_path",
 								"value": "$$FILEPATH"
 							}
 						],
@@ -27,8 +27,7 @@
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": false,
 							"modifiedDatetimeStart": "2021-05-01T00:00:00.000Z",
-							"wildcardFolderPath": "*",
-							"wildcardFileName": "*.json",
+							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
